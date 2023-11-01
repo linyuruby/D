@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>1035445209的網頁</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="style.css" media="screen" />
+    <link rel="stylesheet" href="animations.css">
+    <style type="text/css"> 
+	
+	body {
+    margin: 0px;
+	background-image: url(images/bock.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	}
+	
+	h1 {
+	font-size: 25px;
+	text-decoration: blink;
+	}
+	
+	#wrapper{
+	margin: auto;
+	width: 960px;
+	border-top-width: 0px;
+	border-right-width: 5px;
+	border-bottom-width: 0px;
+	border-left-width: 5px;
+	border-top-style: none;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-right-color: #413116;
+	border-left-color: #413116;
+	}
+	
+	#header{
+	background-image: url(images/header.gif);
+	background-repeat: no-repeat;
+	height: 320px;	
+	}
+	
+	#btn{
+	height: 148px;	
+	}
+	
+	#content{
+	font-size: 20px;
+	line-height: 1.5em;
+	color: #503E1B;
+	padding: 30px;
+	font-family: "標楷體", "Arial Black";
+	background-color: #FFF;
+	}
+#title_bar {
+	font-size: 35px;
+	line-height: 3em;
+	font-weight: bolder;
+	color: #FFF;
+	background-color: #413116;
+	text-align: center;
+	padding: 0px;
+	font-family: "標楷體", "Arial Black";
+}
+.title-2 {
+	font-size: 25px;
+	font-weight: bolder;
+	color: #413116;
+	padding-left: 5px;
+	border-bottom-width: 1px;
+	border-left-width: 1em;
+	border-bottom-style: dotted;
+	border-left-style: solid;
+	border-bottom-color: #413116;
+	border-left-color: #413116;
+	font-family: "標楷體", "Arial Black";
+}
+	
+	#footer{
+	font-size: 20px;
+	line-height: 0em;
+	color: #413116;
+	background-image: url(images/2.png);
+	background-repeat: no-repeat;
+	height: 355px;
+	padding: 0px;
+	font-family: "標楷體", "Arial Black";
+	}
+	
+	.floatleft {
+    float: left; 
+    padding-right: 20px;
+    padding-bottom: 20px;
+	}
+	
+	.floatright {
+    float: right; 
+    padding-right: 20px;
+    padding-bottom: 20px;
+	}
+	
+	.clearboth {
+    clear: both;
+    }
+	
+	a:link {          /* <a>元素顏色*/
+	color: #774228;
+	}
+	a:visited { 	  /* <a>元素被點遠過後的顏色*/
+	color: #CB9D62;
+	}
+	
+	.expandUp{
+	animation-name: expandUp;
+	-webkit-animation-name: expandUp;	
+
+	animation-duration: 0.7s;	
+	-webkit-animation-duration: 0.7s;
+
+	animation-timing-function: ease;	
+	-webkit-animation-timing-function: ease;		
+
+	visibility: visible !important;	
+}
+
+@keyframes expandUp {
+	0% {
+		transform: translateY(100%) scale(0.6) scaleY(0.5);
+	}
+	60%{
+		transform: translateY(-7%) scaleY(1.12);
+	}
+	75%{
+		transform: translateY(3%);
+	}	
+	100% {
+		transform: translateY(0%) scale(1) scaleY(1);
+	}	
+}
+
+@-webkit-keyframes expandUp {
+	0% {
+		-webkit-transform: translateY(100%) scale(0.6) scaleY(0.5);
+	}
+	60%{
+		-webkit-transform: translateY(-7%) scaleY(1.12);
+	}
+	75%{
+		-webkit-transform: translateY(3%);
+	}	
+	100% {
+		-webkit-transform: translateY(0%) scale(1) scaleY(1);
+	}	
+}
+
+.floating{
+	animation-name: floating;
+	-webkit-animation-name: floating;
+
+	animation-duration: 1.5s;	
+	-webkit-animation-duration: 1.5s;
+
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+}
+
+@keyframes floating {
+	0% {
+		transform: translateY(0%);	
+	}
+	50% {
+		transform: translateY(8%);	
+	}	
+	100% {
+		transform: translateY(0%);
+	}			
+}
+
+@-webkit-keyframes floating {
+	0% {
+		-webkit-transform: translateY(0%);	
+	}
+	50% {
+		-webkit-transform: translateY(8%);	
+	}	
+	100% {
+		-webkit-transform: translateY(0%);
+	}			
+}
+	
+    #apDiv1 {
+	position: absolute;
+	left: 706px;
+	top: 22px;
+	width: 500px;
+	height: 200px;
+	z-index: 1;
+	visibility: hidden;
+}
+    #apDiv2 {
+	position: absolute;
+	left: 901px;
+	top: 3626px;
+	width: 300px;
+	height: 300px;
+	z-index: 2;
+}
+    #apDiv3 {
+	position: absolute;
+	left: 1053px;
+	top: 3515px;
+	width: 500px;
+	height: 200px;
+	z-index: 3;
+	visibility: hidden;
+}
+    </style>
+    <script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+function MM_showHideLayers() { //v9.0
+  var i,p,v,obj,args=MM_showHideLayers.arguments;
+  for (i=0; i<(args.length-2); i+=3) 
+  with (document) if (getElementById && ((obj=getElementById(args[i]))!=null)) { v=args[i+2];
+    if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v; }
+    obj.visibility=v; }
+}
+    </script>
+    
+    
+</head>
+
+<body bgcolor="#FFF" onLoad="MM_preloadImages('images/e1.gif','images/e2.gif','images/e3.gif','images/e5.gif')">
+	
+	<div id="apDiv1"><img src="images/M1.png" alt="蔓陀蘿" width="500" height="200" class="floating"></div>
+	<div id="apDiv2" onMouseOver="MM_showHideLayers('apDiv3','','show')" onMouseOut="MM_showHideLayers('apDiv3','','hide')"><img src="images/withered2.png" alt="蔓陀蘿" width="300" height="300" class="floating"></div>
+	<div id="apDiv3"><img src="images/M4.png" alt="蔓陀蘿" width="500" height="200" class="floating"></div>
+	<div id="wrapper">
+    <a name="top"></a> 
+	<div id="header">
+	<a href="index.html" class="expandUp" onMouseOver="MM_showHideLayers('apDiv1','','show')" onMouseOut="MM_showHideLayers('apDiv1','','hide')" ><img src="images/morning_special2.png" alt="蔓陀蘿" width="300" height="300" class="floating"></a>
+    </div>
+	<div id="btn">
+    <a href="About.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image1','','images/e1.gif',1)"><img src="images/c1.gif" alt="介紹" width="192" height="148" id="Image1"></a><a href="Raiders.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image2','','images/e2.gif',1)"><img src="images/c2.gif" alt="攻略" width="192" height="148" id="Image2"></a><a href="Atlas.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image3','','images/e3.gif',1)"><img src="images/c3.gif" alt="圖鑑" width="192" height="148" id="Image3"></a><a href="Video.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image4','','images/e4.gif',1)"><img src="images/c4.gif" alt="影音" width="192" height="148" id="Image4"></a><a href="Related.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image5','','images/e5.gif',1)"><img src="images/c5.gif" alt="相關" width="192" height="148" id="Image5"></a></div>
+
+	<div bgcolor="#FFF" id="content">
+      <div id="title_bar">
+        <p>Mandora蔓陀蘿 : 攻略</p>
+      </div>
+	  <center><img src="images/r123.jpg" alt="主畫面" width="600" height="700" border=5 ></center>
+	  <center><p> (↑↑↑這是最新更新版的主畫面喔~) </p></center>
+	  <p>一進入遊戲主畫面就是可愛的蔓陀蘿站一個樹屋上(往左滑在滑回主畫面時，蔓陀蘿還會變喔!)，往左邊滑是可以看圖鑑的小店舖，往右邊滑在上面的葉子是ENDLESS(無限模式)遊戲開始按鈕，而下面的一顆球是SURVIVAL(生存模式)遊戲開始按鈕(最新版的SURVIVAL(生存模式)有四個季節，先滑回主畫面再往遊戲開始的畫面滑，就能更換季節囉~)，此外還有童話風十足的主題曲喔!!</p>
+	  <p class="clearboth"><img src="images/r4.jpg" alt="教學" width="400" height="500" class="floatleft" />第一次進入遊戲的話會導向互動教學模式，之後從主畫面的問號看板也可以進入。教學模式相當清楚：要在葉子長到成熟，也就是發光的時候拔出，太早或是太晚都是不理想的，而特殊品種直接拔起來就可以得到分數囉~ </p>
+	  <p class="clearboth"><img src="images/r6.jpg" alt="遊戲中" width="400" height="500" class="floatright" />遊戲過程非常緊湊又熱鬧，基本一輪的時間是 30 秒，在時間快要用光的時候持續達成 Combo 的話，能拔出增加時間的蔓陀蘿。</p>
+	  <p>遊戲雖然看似簡單，但是也有遊戲系統可以鑽研，目前筆者發現只要連續拔出成熟葉子即可達成 Combo，當 Combo 達到一定數字時會出現特殊的金蘋果，一旦拔出金蘋果，畫面上所有葉子頭無論狀態都會一起被拔出來，接下來的葉子會按照一定的順序長出，這是遊戲累積 Combo 最好的時機。想要獲得高分一定要熟悉這個技巧!!	  </p>
+	  <p>依我個人的經驗，如果連續玩15分鐘沒有死的話大概有20幾萬分數，30分鐘有50萬分數。(以個人我自己的能力兩個小時可以玩到300萬分~)</p>
+	  <p class="clearboth"><img src="images/r5.jpg" alt="結算" width="400" height="500" class="floatleft" />結算的設計也非常的可愛有趣，是拔出瓶塞後才開始算分的喔!!分數評價也充滿趣味，從惡搞味濃厚的”你是在猴急甚麼啦”到正經八百的”蔓陀蘿收藏家”等，官方表示一共 60 種以上的稱號，如果這個也有蒐集列表就可以滿足更多收藏控了~</p>
+	  <p class="clearboth"></p>
+	  
+      <p class="title-2">Mandora蔓陀蘿的稱號</p>
+      <P>以下是由最低分到最高分的排列</P>
+	  <ul>
+	    <li>咦!?遊戲結束了嗎!?</li>
+	    <li>孩子王</li>
+	    <li>菜鳥園丁</li>
+	    <li>見習園丁</li>
+	    <li>小學校長</li>
+	    <li>連鎖反應</li>
+	    <li>終於熟悉蔓陀蘿的園丁</li>
+	    <li>視力2.0</li>
+	    <li>初出茅廬的園藝師</li>
+	    <li>滴水不漏</li>
+	    <li>拼命練習的園藝師</li>
+	    <li>獨當一面的園藝師</li>
+	    <li>複眼</li>
+	    <li>新人栽種師</li>
+	    <li>初露頭角的栽種師</li>
+	    <li>八爪章魚</li>
+	    <li>備受期待的栽種師</li>
+	    <li>月貓村首屈一指的栽種師</li>
+	    <li>溫室管理員見習</li>
+	    <li>神經傳導障礙</li>
+	    <li>溫室管理人</li>
+	    <li>神之手</li>
+	    <li>梅林溫室的管理人</li>
+	    <li>翠綠之賢者</li>
+	    <li>薔薇賢者</li>
+	    <li>月貓農場經理</li>
+	    <li>紫藤之賢者</li>
+	    <li>蔓陀蘿工廠</li>
+	    <li>蔓陀蘿工廠長</li>
+	    <li>紅蓮之賢者</li>
+	    <li>月貓農場副總</li>
+	    <li>蔓陀蘿觀察者</li>
+	    <li>密林魔導士</li>
+	    <li>蔓陀蘿魔導士</li>
+	    <li>蔓陀蘿採集大師</li>
+	    <li>究極收藏家</li>
+	    <li>超級收割者</li>
+	    <li>蔓陀蘿爵士</li>
+	    <li>蓋亞的後裔</li>
+	    <li>蔓陀蘿霸主</li>
+	    <li>蔓陀蘿領主</li>
+	    <li>蔓陀蘿騎士</li>
+	    <li>農場之星</li>
+	    <li>蔓陀蘿上校</li>
+	    <li>蔓陀蘿軍曹</li>
+	    <li>農場英雄</li>
+	    <li>到底拔了多久′_>‵</li>
+	    <li>蔓陀蘿幫你按摩僵硬的肩膀</li>
+	    <li>月貓農場董事長</li>
+	    <li>帝王蔓陀蘿(超過兩百萬分數會得到的!! PS:我最高是三百多萬~XD)</li>
+	    <li>耶穌蔓陀蘿(據說是兩億多分的稱號!!嚇...)</li>
+      </ul>
+      <p></p>
+      <p>下面這四個稱號是當你拔的該種類蔓陀蘿佔多數拿到的~<br>
+      你是在猴急什麼啦!  &gt;  小學院長  &gt;  養老院長  &gt;  死神大人<br>
+      未成熟&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;枯萎</p>
+      <p>&nbsp;</p>
+      <p class="title-2">遊玩心得</p>
+      <p>整題而言《Mandora》以簡單的設計融合可愛的角色和蒐集要素，提供了相當的趣味和挑戰性，一輪遊戲時間也不至於過長，適合通勤或是需要打發時間的時候拿出來消遣一下，而欣賞栽種日誌裡面各式品種的蔓陀蘿也是很有成就感的呢。值得注意的是，官方承諾未來會更進一步的擴充系統以及更多的遊戲內容喔。</p>
+      <p>《蔓陀蘿（Mandora）》目前在 Apple iTunes Store 及 Google Play Market 均免費下載。</p>
+      <p></p>
+      <embed src="music/Mandora 2.0 Theme.mp3" loop="1" >
+      <p align="right"><a href="#top">TOP</a></p>
+      
+	</div>
+	<div id="footer">
+    
+	</div>
+</div>
+    
+</body>
+</html>

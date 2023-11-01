@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>1035445209的網頁</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="style.css" media="screen" />
+    <link rel="stylesheet" href="animations.css">
+    <style type="text/css"> 
+	
+	body {
+	margin: 0px;
+	background-image: url(images/bock.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	}
+	
+	h1 {
+	font-size: 25px;
+	text-decoration: blink;
+	}
+	
+	#wrapper{
+	margin: auto;
+	width: 960px;
+	border-top-width: 0px;
+	border-right-width: 5px;
+	border-bottom-width: 0px;
+	border-left-width: 5px;
+	border-top-style: none;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-right-color: #413116;
+	border-left-color: #413116;
+	}
+	
+	#header{
+	background-image: url(images/header.gif);
+	background-repeat: no-repeat;
+	height: 320px;	
+	}
+	
+	#btn{
+	height: 148px;	
+	}
+	
+	#content{
+	font-size: 20px;
+	line-height: 1.5em;
+	color: #503E1B;
+	padding: 30px;
+	font-family: "標楷體", "Arial Black";
+	background-color: #FFF;
+	}
+#title_bar {
+	font-size: 35px;
+	line-height: 3em;
+	font-weight: bolder;
+	color: #FFF;
+	background-color: #413116;
+	text-align: center;
+	padding: 0px;
+	font-family: "標楷體", "Arial Black";
+}
+.title-2 {
+	font-size: 25px;
+	font-weight: bolder;
+	color: #413116;
+	padding-left: 5px;
+	border-bottom-width: 1px;
+	border-left-width: 1em;
+	border-bottom-style: dotted;
+	border-left-style: solid;
+	border-bottom-color: #413116;
+	border-left-color: #413116;
+	font-family: "標楷體", "Arial Black";
+}
+	
+	#footer{
+	font-size: 20px;
+	line-height: 0em;
+	color: #413116;
+	background-image: url(images/2.png);
+	background-repeat: no-repeat;
+	height: 355px;
+	padding: 0px;
+	font-family: "標楷體", "Arial Black";
+	}
+	
+	.floatleft {
+    float: left; 
+    padding-right: 20px;
+    padding-bottom: 20px;
+	}
+
+	.clearboth {
+    clear: both;
+    }
+	
+	a:link {          /* <a>元素顏色*/
+	color: #774228;
+	}
+	a:visited { 	  /* <a>元素被點遠過後的顏色*/
+	color: #CB9D62;
+	}
+	
+	.expandUp{
+	animation-name: expandUp;
+	-webkit-animation-name: expandUp;	
+
+	animation-duration: 0.7s;	
+	-webkit-animation-duration: 0.7s;
+
+	animation-timing-function: ease;	
+	-webkit-animation-timing-function: ease;		
+
+	visibility: visible !important;	
+}
+
+@keyframes expandUp {
+	0% {
+		transform: translateY(100%) scale(0.6) scaleY(0.5);
+	}
+	60%{
+		transform: translateY(-7%) scaleY(1.12);
+	}
+	75%{
+		transform: translateY(3%);
+	}	
+	100% {
+		transform: translateY(0%) scale(1) scaleY(1);
+	}	
+}
+
+@-webkit-keyframes expandUp {
+	0% {
+		-webkit-transform: translateY(100%) scale(0.6) scaleY(0.5);
+	}
+	60%{
+		-webkit-transform: translateY(-7%) scaleY(1.12);
+	}
+	75%{
+		-webkit-transform: translateY(3%);
+	}	
+	100% {
+		-webkit-transform: translateY(0%) scale(1) scaleY(1);
+	}	
+}
+
+.floating{
+	animation-name: floating;
+	-webkit-animation-name: floating;
+
+	animation-duration: 1.5s;	
+	-webkit-animation-duration: 1.5s;
+
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+}
+
+@keyframes floating {
+	0% {
+		transform: translateY(0%);	
+	}
+	50% {
+		transform: translateY(8%);	
+	}	
+	100% {
+		transform: translateY(0%);
+	}			
+}
+
+@-webkit-keyframes floating {
+	0% {
+		-webkit-transform: translateY(0%);	
+	}
+	50% {
+		-webkit-transform: translateY(8%);	
+	}	
+	100% {
+		-webkit-transform: translateY(0%);
+	}			
+}
+	
+    #apDiv1 {
+	position: absolute;
+	left: 702px;
+	top: 24px;
+	width: 500px;
+	height: 200px;
+	z-index: 1;
+	visibility: hidden;
+}
+    #apDiv2 {
+	position: absolute;
+	left: 763px;
+	top: 1912px;
+	width: 500px;
+	height: 200px;
+	z-index: 2;
+	visibility: hidden;
+}
+    </style>
+    <script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+function MM_showHideLayers() { //v9.0
+  var i,p,v,obj,args=MM_showHideLayers.arguments;
+  for (i=0; i<(args.length-2); i+=3) 
+  with (document) if (getElementById && ((obj=getElementById(args[i]))!=null)) { v=args[i+2];
+    if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v; }
+    obj.visibility=v; }
+}
+</script>
+</head>
+
+<body bgcolor="#FFF" onLoad="MM_preloadImages('images/e1.gif','images/e2.gif','images/e3.gif','images/e5.gif')">
+	
+	<div id="apDiv1"><img src="images/M1.png" alt="蔓陀蘿" width="500" height="200" class="floating"></div>
+	<div id="apDiv2"><img src="images/M6.png" alt="蔓陀蘿" width="500" height="200" class="floating"></div>
+	<div id="wrapper"> 
+    <a name="top"></a>
+	<div id="header">
+	<a href="index.html" class="expandUp" onMouseOver="MM_showHideLayers('apDiv1','','show')" onMouseOut="MM_showHideLayers('apDiv1','','hide')" ><img src="images/morning_special2.png" alt="蔓陀蘿" width="300" height="300" class="floating"></a>
+    </div>
+	<div id="btn">
+    <a href="About.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image1','','images/e1.gif',1)"><img src="images/c1.gif" alt="介紹" width="192" height="148" id="Image1"></a><a href="Raiders.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image2','','images/e2.gif',1)"><img src="images/c2.gif" alt="攻略" width="192" height="148" id="Image2"></a><a href="Atlas.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image3','','images/e3.gif',1)"><img src="images/c3.gif" alt="圖鑑" width="192" height="148" id="Image3"></a><a href="Video.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image4','','images/e4.gif',1)"><img src="images/c4.gif" alt="影音" width="192" height="148" id="Image4"></a><a href="Related.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image5','','images/e5.gif',1)"><img src="images/c5.gif" alt="相關" width="192" height="148" id="Image5"></a></div>
+
+	<div bgcolor="#FFF" id="content">
+      <div id="title_bar">
+        <p>Mandora蔓陀蘿 : 關於</p>
+      </div>
+	  <p>在今年初推出音樂節奏遊戲《Cytus》席捲全球之後，Rayark 雷亞遊戲在本月 23 號突然推出了一款風格截然不同的免費遊戲《蔓陀蘿（ Mandora）》，由於其可愛的角色設計、繪本風格的遊戲畫面，以及繁體中文的介面，引起了許多玩家的關注。以下就讓我們一起來進入《Mandora》的可愛世界吧。 </p>
+	  <p class="title-2">治癒系蔓陀蘿全新面貌亮相!!</p>
+	  <p>歡迎來到月貓村，這裡是巫師們最愛的園藝勝地，也是唯一在這個星球上可以找到蔓陀羅種子的地方。</p>
+	  <p>蔓陀羅不但是強力的魔法提煉素材，月貓村甚至將這種介於植物與動物、魔法與科學之間的生物培養成巫師女巫之間最流行的飾品或寵物。 短短幾年之間，數百種蔓陀羅在魔法世界流行了起來。</p><br>
+	  <p><strong>《與臉書好友一起在生存模式裡競爭》</strong><br>
+	  新增加的生存模式會隨著遊戲進行提高難度，還有專門啃蔓陀蘿葉子的菜蟲會來妨礙玩家。一邊克服重重困難一邊蒐集金幣來購買更具威力的道具，在森林中的菜園裡生存吧!</p><br>
+	  <p><strong>《在無限模式的月貓村農園裡盡情享受拔蔓陀蘿的樂趣》</strong><br>
+      玩家在遊戲中是負責收成蔓陀蘿的栽種師，在時限內盡可能拔出成熟的蔓陀蘿獲得高分，保持在連續拔出成熟蔓陀蘿 (Combo) 的狀態，就有機會得到稀有的新品種以及一瞬間提高分數的道具。</p><br>
+	  <p><strong>《超可愛的栽種日誌紀錄遊戲歷程》</strong><br>
+      收成後的蔓陀蘿品種會紀錄在栽種日誌中，玩家可以隨時回來翻閱並且聽聽他們被拔出土裡時的各種叫聲，或是找找還有哪些品種沒有被蒐集到，日誌內都會有提示喔~</p><br>
+	  <p><strong>《持續向上挑戰的稱號系統》</strong><br>
+      每次收成結束之後都會給予評價稱號，向最高稱號挑戰吧!</p><br>
+	  <p>
+      </p>
+	  <p class="title-2">遊戲特色</p>
+      <ul>
+        <li> 熱鬧又瘋狂，使用各種道具與臉書好友排名一較高下的生存模式 </li>
+        <li>能夠不斷超越向無上限的遊戲紀錄挑戰的無限模式 </li>
+        <li>超過 45 種可愛又逗趣的蔓陀蘿寶寶，吵鬧又治癒的迷人角色 </li>
+        <li>精緻讓人愛不釋手的繪本風格栽種日誌，在這裡回顧已經收成的蔓陀蘿 </li>
+        <li>農場紀錄：個人遊戲歷程，各種有趣的統計數據 </li>
+        <li>貼心互動教學模式，讓第一次接觸的人輕鬆上手 </li>
+        <li>60 種以上的遊戲評價稱號 </li>
+        <li>支援中、日、英、韓、葡、西、法 7 種語系</li>
+      </ul>
+      </p>
+      <p class="title-2">可愛風手機休閒遊戲《Mandora》3.0 改版正式上線囉!!</p>
+	  <p class="clearboth"><a href="javascript:;" onMouseOver="MM_showHideLayers('apDiv2','','show')" onMouseOut="MM_showHideLayers('apDiv2','','hide')"><img src="images/4.jpg" alt="四季" width="400" height="400" class="floatleft" border="0" /></a>本次改版遊戲在生存模式中增加了季節變化和 24 種全新品種的 Mandora。</p>
+      
+	  <p>月貓村四季分明，在夏日烈陽或是秋天楓紅中，農場裡可能會有海妖或是月兔出沒，喜歡收藏珍稀品種的玩家，可在免費更新完遊戲之後，蒐集到本次新增的 24 種夏天和秋天新品種。此外遊戲的生存模式也追加了季節的設定，特殊時間品種不必再調整裝置的時間即可取得。</p>
+	  <p class="clearboth"></p>
+      <embed src="music/Mandora 2.0 Theme.mp3" loop="1" >
+      <p align="right"><a href="#top">TOP</a></p>
+	
+	</div>
+	<div id="footer">
+    
+	</div>
+</div>
+    
+</body>
+</html>

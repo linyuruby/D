@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>1035445209的網頁</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="style.css" media="screen" />
+    <link rel="stylesheet" href="animations.css">
+    <style type="text/css"> 
+	
+	body {
+    margin: 0px;
+	background-image: url(images/bock.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	}
+	
+	h1 {
+	font-size: 25px;
+	text-decoration: blink;
+	}
+	
+	#wrapper{
+	margin: auto;
+	width: 960px;
+	border-top-width: 0px;
+	border-right-width: 5px;
+	border-bottom-width: 0px;
+	border-left-width: 5px;
+	border-top-style: none;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-right-color: #413116;
+	border-left-color: #413116;
+	}
+	
+	#header{
+	background-image: url(images/header.gif);
+	background-repeat: no-repeat;
+	height: 320px;	
+	}
+	
+	#btn{
+	height: 148px;	
+	}
+	
+	#content{
+	font-size: 20px;
+	line-height: 1.5em;
+	color: #503E1B;
+	padding: 30px;
+	font-family: "標楷體", "Arial Black";
+	background-color: #FFF;
+	}
+#title_bar {
+	font-size: 35px;
+	line-height: 3em;
+	font-weight: bolder;
+	color: #FFF;
+	background-color: #413116;
+	text-align: center;
+	padding: 0px;
+	font-family: "標楷體", "Arial Black";
+}
+.title-2 {
+	font-size: 25px;
+	font-weight: bolder;
+	color: #413116;
+	padding-left: 5px;
+	border-bottom-width: 1px;
+	border-left-width: 1em;
+	border-bottom-style: dotted;
+	border-left-style: solid;
+	border-bottom-color: #413116;
+	border-left-color: #413116;
+	font-family: "標楷體", "Arial Black";
+}
+	
+	#footer{
+	font-size: 20px;
+	line-height: 0em;
+	color: #413116;
+	background-image: url(images/2.png);
+	background-repeat: no-repeat;
+	height: 355px;
+	padding: 0px;
+	font-family: "標楷體", "Arial Black";
+	}
+	
+	.floatleft {
+    float: left; 
+    padding-right: 20px;
+    padding-bottom: 20px;
+	}
+
+	.clearboth {
+    clear: both;
+    }
+	
+	a:link {          /* <a>元素顏色*/
+	color: #774228;
+	}
+	a:visited { 	  /* <a>元素被點遠過後的顏色*/
+	color: #CB9D62;
+	}
+	
+.tossing{
+	animation-name: tossing;
+	-webkit-animation-name: tossing;	
+
+	animation-duration: 2.5s;	
+	-webkit-animation-duration: 2.5s;
+
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+}
+
+@keyframes tossing {
+	0% {
+		transform: rotate(-4deg);	
+	}
+	50% {
+		transform: rotate(4deg);
+	}
+	100% {
+		transform: rotate(-4deg);	
+	}						
+}
+
+@-webkit-keyframes tossing {
+	0% {
+		-webkit-transform: rotate(-4deg);	
+	}
+	50% {
+		-webkit-transform: rotate(4deg);
+	}
+	100% {
+		-webkit-transform: rotate(-4deg);	
+	}				
+}
+
+
+
+.floating{
+	animation-name: floating;
+	-webkit-animation-name: floating;
+
+	animation-duration: 1.5s;	
+	-webkit-animation-duration: 1.5s;
+
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+}
+
+@keyframes floating {
+	0% {
+		transform: translateY(0%);	
+	}
+	50% {
+		transform: translateY(8%);	
+	}	
+	100% {
+		transform: translateY(0%);
+	}			
+}
+
+@-webkit-keyframes floating {
+	0% {
+		-webkit-transform: translateY(0%);	
+	}
+	50% {
+		-webkit-transform: translateY(8%);	
+	}	
+	100% {
+		-webkit-transform: translateY(0%);
+	}			
+}
+	
+    #apDiv1 {
+	position: absolute;
+	left: 226px;
+	top: 265px;
+	width: 300px;
+	height: 260px;
+	z-index: 1;
+	visibility: hidden;
+}
+    #apDiv2 {
+	position: absolute;
+	left: 75px;
+	top: 460px;
+	width: 200px;
+	height: 200px;
+	z-index: 2;
+}
+    #apDiv3 {
+	position: absolute;
+	left: 1435px;
+	top: 666px;
+	width: 200px;
+	height: 200px;
+	z-index: 3;
+}
+    #apDiv4 {
+	position: absolute;
+	left: 1200px;
+	top: 463px;
+	width: 300px;
+	height: 260px;
+	z-index: 4;
+	visibility: hidden;
+}
+    #apDiv5 {
+	position: absolute;
+	left: 31px;
+	top: 1139px;
+	width: 200px;
+	height: 200px;
+	z-index: 5;
+}
+    #apDiv6 {
+	position: absolute;
+	left: 193px;
+	top: 931px;
+	width: 285px;
+	height: 246px;
+	z-index: 6;
+	visibility: hidden;
+}
+    #apDiv7 {
+	position: absolute;
+	left: 1435px;
+	top: 1310px;
+	width: 200px;
+	height: 200px;
+	z-index: 7;
+}
+    #apDiv8 {
+	position: absolute;
+	left: 1199px;
+	top: 1105px;
+	width: 300px;
+	height: 260px;
+	z-index: 8;
+	visibility: hidden;
+}
+    #apDiv9 {
+	position: absolute;
+	left: 703px;
+	top: 22px;
+	width: 500px;
+	height: 200px;
+	z-index: 9;
+	visibility: hidden;
+}
+    #apDiv10 {
+	position: absolute;
+	left: 947px;
+	top: 632px;
+	width: 500px;
+	height: 200px;
+	z-index: 10;
+	visibility: hidden;
+}
+    #apDiv11 {
+	position: absolute;
+	left: 204px;
+	top: 1111px;
+	width: 500px;
+	height: 200px;
+	z-index: 11;
+	visibility: hidden;
+}
+    </style>
+    <script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+function MM_showHideLayers() { //v9.0
+  var i,p,v,obj,args=MM_showHideLayers.arguments;
+  for (i=0; i<(args.length-2); i+=3) 
+  with (document) if (getElementById && ((obj=getElementById(args[i]))!=null)) { v=args[i+2];
+    if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v; }
+    obj.visibility=v; }
+}
+    </script>
+</head>
+
+<body bgcolor="#FFF" onLoad="MM_preloadImages('images/e1.gif','images/e2.gif','images/e3.gif','images/e5.gif')">
+	
+	<div id="apDiv1"><img src="images/morning_mature1.jpg" alt="蔓陀蘿" width="300" height="260" class="tossing"></div>
+<div id="apDiv2"><a href="javascript:;" onMouseOver="MM_showHideLayers('apDiv1','','show')" onMouseOut="MM_showHideLayers('apDiv1','','hide')"><img src="images/morning_mature.png" alt="蔓陀蘿" width="200" height="200" class="tossing" border="0"></a></div>
+    <div id="apDiv3"><a href="javascript:;" onMouseOver="MM_showHideLayers('apDiv4','','show');MM_showHideLayers('apDiv10','','show')" onMouseOut="MM_showHideLayers('apDiv4','','hide');MM_showHideLayers('apDiv10','','hide')"><img src="images/night_mature.png" alt="蔓陀蘿" width="200" height="200" class="tossing" border="0"></a></div>
+    <div id="apDiv4"><img src="images/night_mature1.jpg" alt="蔓陀蘿" width="300" height="260" class="tossing"></div>
+    <div id="apDiv5" onMouseOver="MM_showHideLayers('apDiv6','','show')" onMouseOut="MM_showHideLayers('apDiv6','','hide')"><a href="javascript:;" onMouseOver="MM_showHideLayers('apDiv11','','show')" onMouseOut="MM_showHideLayers('apDiv11','','hide')"><img src="images/evening_seedling.png" alt="蔓陀蘿" width="200" height="200" class="tossing" border="0"></a></div>
+    <div id="apDiv6"><img src="images/evening_seedling1.jpg" alt="蔓陀蘿" width="300" height="260" class="tossing"></div>
+    <div id="apDiv7" onMouseOver="MM_showHideLayers('apDiv8','','show')" onMouseOut="MM_showHideLayers('apDiv8','','hide')"><img src="images/morning_withered.png" alt="蔓陀蘿" width="200" height="200" class="tossing" border="0"></div>
+    <div id="apDiv8"><img src="images/morning_withered1.jpg" alt="蔓陀蘿" width="300" height="260" class="tossing"></div>
+    <div id="apDiv9"><img src="images/M1.png" alt="蔓陀蘿" width="500" height="200" class="floating"></div>
+    <div id="apDiv10"><img src="images/M5.png" alt="蔓陀蘿" width="500" height="200" class="tossing"></div>
+    <div id="apDiv11"><img src="images/M7.png" alt="蔓陀蘿" width="500" height="200" class="tossing"></div>
+    <div id="wrapper"> 
+    <a name="top"></a>
+	<div id="header">
+	<a href="index.html" onMouseOver="MM_showHideLayers('apDiv9','','show')" onMouseOut="MM_showHideLayers('apDiv9','','hide')" ><img src="images/morning_special2.png" alt="蔓陀蘿" width="300" height="300" class="floating"></a>
+    </div>
+	<div id="btn">
+    <a href="About.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image1','','images/e1.gif',1)"><img src="images/c1.gif" alt="介紹" width="192" height="148" id="Image1"></a><a href="Raiders.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image2','','images/e2.gif',1)"><img src="images/c2.gif" alt="攻略" width="192" height="148" id="Image2"></a><a href="Atlas.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image3','','images/e3.gif',1)"><img src="images/c3.gif" alt="圖鑑" width="192" height="148" id="Image3"></a><a href="Video.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image4','','images/e4.gif',1)"><img src="images/c4.gif" alt="影音" width="192" height="148" id="Image4"></a><a href="Related.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image5','','images/e5.gif',1)"><img src="images/c5.gif" alt="相關" width="192" height="148" id="Image5"></a></div>
+
+	<div bgcolor="#FFF" id="content">
+      <div id="title_bar">
+        <p>Mandora蔓陀蘿 : 圖鑑</p>
+      </div>
+	  
+	  <p>超可愛的蔓陀蘿在緊湊的遊戲中無法好好仔細看看他們的模樣，製作團隊也安排了栽種日誌 Diary 這個功能讓玩家隨時瀏覽已經拔出來的品種。特別的是，每種蔓陀蘿還有一張像是即可拍相片的特寫，相當別出心裁的設計。還沒蒐集到的品種也可以點進去看蒐集條件喔~ </p>
+	  <p>可愛的蔓陀蘿有分很多種類，依照ENDLESS(無限模式)遊戲和SURVIVAL(生存模式)遊戲就有不同的蔓陀蘿品種喔!!最新版的也出現四季蔓陀蘿品種，而目前有6本書!!</p>
+	  <center><p><img src="images/B1.jpg"  width="240" height="400" border=5 ><img src="images/B2.jpg"  width="240" height="400" border=5  ></p></center>
+      </p>
+	  <p class="title-2">蔓陀蘿品種</p>
+      <P>在ENDLESS(無限模式)裡有白天.下午和晚上，各有不同品種的蔓陀蘿!!</P>
+      <center><img src="images/a1.jpg"  width="400" height="350" border=5 ><img src="images/a2.jpg"  width="400" height="350" border=5 ></center>
+      <p></p>
+      <p></p>
+	  <P>在SURVIVAL(生存模式)裡有一隻會把所有蔓陀蘿吃掉的蟲蟲，還有分Level幾的場景才會出現特殊蔓陀蘿!!所以SURVIVAL(生存模式)比較困難!!</P>            
+	  <center><img src="images/a3.jpg"  width="400" height="350" border=5 ><img src="images/a4.jpg"  width="400" height="350" border=5 ><img src="images/a5.jpg"  width="400" height="350" border=5 ><img src="images/a6.jpg"  width="400" height="350" border=5 > </center>
+	<p></p>
+    <p></p>
+    <p></p>
+    <embed src="music/Mandora 2.0 Theme.mp3" loop="1" >
+    <p align="right"><a href="#top">TOP</a></p>
+       
+	</div>
+	<div id="footer">
+    
+	</div>
+</div>
+    
+</body>
+</html>

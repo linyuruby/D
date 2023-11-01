@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>1035445209的網頁</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="style.css" media="screen" />
+    <link rel="stylesheet" href="animations.css">
+    <style type="text/css"> 
+	
+	body {
+	margin: 0px;
+	background-repeat: no-repeat;
+	background-image: url(images/bock.png);
+	background-attachment: fixed;
+	}
+	
+	#wrapper{
+	margin: auto;
+	width: 960px;
+	border-top-width: 0px;
+	border-right-width: 5px;
+	border-bottom-width: 0px;
+	border-left-width: 5px;
+	border-top-style: none;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-right-color: #413116;
+	border-left-color: #413116;
+	}
+	
+	#header{
+	background-image: url(images/5.png);
+	background-repeat: no-repeat;
+	height: 468px;
+	}
+	
+	#btn{
+	height: 148px;	
+	}
+	
+	#content{
+	font-size: 20px;
+	color: #FFFFFF;
+	font-family: "標楷體", "Arial Black";
+	height: 20px;
+	padding: 20px;
+	text-align: center;
+	background-color: #413116;
+	}
+	
+#title_bar {
+	font-size: 35px;
+	line-height: 3em;
+	font-weight: bolder;
+	color: #FFF;
+	background-color: #413116;
+	text-align: center;
+	padding: 0px;
+	font-family: "標楷體", "Arial Black";
+}
+.title-2 {
+	font-size: 25px;
+	font-weight: bolder;
+	color: #413116;
+	padding-left: 5px;
+	border-bottom-width: 1px;
+	border-left-width: 1em;
+	border-bottom-style: dotted;
+	border-left-style: solid;
+	border-bottom-color: #413116;
+	border-left-color: #413116;
+	font-family: "標楷體", "Arial Black";
+}
+	
+	#footer{
+	font-size: 20px;
+	line-height: 0em;
+	color: #413116;
+	background-image: url(images/2.png);
+	background-repeat: no-repeat;
+	height: 355px;
+	padding: 0px;
+	font-family: "標楷體", "Arial Black";
+	}
+	
+	.floatleft {
+    float: left; 
+    padding-right: 20px;
+    padding-bottom: 20px;
+	}
+
+	.clearboth {
+    clear: both;
+    }
+	
+	.expandUp{
+	animation-name: expandUp;
+	-webkit-animation-name: expandUp;	
+
+	animation-duration: 0.7s;	
+	-webkit-animation-duration: 0.7s;
+
+	animation-timing-function: ease;	
+	-webkit-animation-timing-function: ease;		
+
+	visibility: visible !important;	
+}
+
+@keyframes expandUp {
+	0% {
+		transform: translateY(100%) scale(0.6) scaleY(0.5);
+	}
+	60%{
+		transform: translateY(-7%) scaleY(1.12);
+	}
+	75%{
+		transform: translateY(3%);
+	}	
+	100% {
+		transform: translateY(0%) scale(1) scaleY(1);
+	}	
+}
+
+@-webkit-keyframes expandUp {
+	0% {
+		-webkit-transform: translateY(100%) scale(0.6) scaleY(0.5);
+	}
+	60%{
+		-webkit-transform: translateY(-7%) scaleY(1.12);
+	}
+	75%{
+		-webkit-transform: translateY(3%);
+	}	
+	100% {
+		-webkit-transform: translateY(0%) scale(1) scaleY(1);
+	}	
+}
+
+.floating{
+	animation-name: floating;
+	-webkit-animation-name: floating;
+
+	animation-duration: 1.5s;	
+	-webkit-animation-duration: 1.5s;
+
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+}
+
+@keyframes floating {
+	0% {
+		transform: translateY(0%);	
+	}
+	50% {
+		transform: translateY(8%);	
+	}	
+	100% {
+		transform: translateY(0%);
+	}			
+}
+
+@-webkit-keyframes floating {
+	0% {
+		-webkit-transform: translateY(0%);	
+	}
+	50% {
+		-webkit-transform: translateY(8%);	
+	}	
+	100% {
+		-webkit-transform: translateY(0%);
+	}			
+}
+	
+    #apDiv1 {
+	position: absolute;
+	left: 139px;
+	top: 260px;
+	width: 300px;
+	height: 300px;
+	z-index: 1;
+}
+    #apDiv2 {
+	position: absolute;
+	left: 354px;
+	top: 10px;
+	width: 400px;
+	height: 400px;
+	z-index: 2;
+	background-image: url(images/1234.gif);
+	visibility: hidden;
+}
+    #apDiv3 {
+	position: absolute;
+	left: 92px;
+	top: 52px;
+	width: 296px;
+	height: 253px;
+	z-index: 3;
+	font-family: Arial, "Arial Black", "標楷體";
+	font-size: 20px;
+}
+
+	a:link {          /* <a>元素顏色*/
+	color: #503E1B;
+	}
+	a:visited { 	  /* <a>元素被點遠過後的顏色*/
+	color: #7C5729;
+	}
+  
+    #apDiv4 {
+	position: absolute;
+	left: 477px;
+	top: 469px;
+	width: 960px;
+	height: 65px;
+	z-index: 3;
+	background-color: #413116;
+	text-align: center;
+	font-size: 20px;
+	color: #FFF;
+	font-family: Arial, "Arial Black", "標楷體";
+	font-weight: bolder;
+	line-height: 3em;
+}
+    #apDiv5 {
+	position: absolute;
+	left: 481px;
+	top: 405px;
+	width: 960px;
+	height: 70px;
+	z-index: 4;
+	background-color: #413116;
+	font-family: Arial, "Arial Black", "標楷體";
+	font-size: 25px;
+	line-height: 3em;
+	font-weight: bolder;
+	color: #FFF;
+	text-align: center;
+	visibility: hidden;
+}
+	
+	#button {
+        /*高度設定*/
+        height: 70px;
+
+        /*文字設定*/
+        font-weight: bolder;
+        color: #FFF;
+        font-size: 25px;
+        font-family: Arial, "Arial Black", "標楷體";
+		
+        /*將內定的邊距清除*/
+        margin: 0px;
+        
+        /*將內定的內距清除*/
+        padding:0px;
+        }
+
+#button li {
+	/* 讓各個清單元素靠左對齊 */
+	float: left;
+	/* 設定清單文字範圍的寬度 */
+	width: 191px;
+	/* 去除清單文字前面的小點*/
+	list-style-type: none;
+	/* 讓清單文字居中對齊 */
+	text-align: center;
+	/* 設定字距為2px */
+	letter-spacing: 2px;
+	padding: 0px;
+	font-size: 25px;
+	line-height: 3em;
+	font-weight: bolder;
+	color: #FFF;
+           }
+
+#button li a {
+          /* 連結範圍充滿整個區塊 */
+          display: block;
+   
+          /* 單個連結範圍的框度和高度*/
+          width: 191px;
+          height:70px;
+ 
+           /* 連結範圍向上的內距 */
+           padding-top:2px;
+ 
+           /* 連結的文字設為白色以及無裝飾(無底線) */
+           color: #FFF;
+           text-decoration: none;
+          }
+
+#button li a:hover{
+	/* 設定滑鼠移過時，清單改變的底色設定 */
+	background-color: #70552E
+}
+	
+    #apDiv6 {
+	position: absolute;
+	left: 480px;
+	top: 401px;
+	width: 960px;
+	height: 70px;
+	z-index: 3;
+	background-color: #413116;
+	visibility: hidden;
+}
+
+	.slideLeft{
+	animation-name: slideLeft;
+	-webkit-animation-name: slideLeft;	
+
+	animation-duration: 1s;	
+	-webkit-animation-duration: 1s;
+
+	animation-timing-function: ease-in-out;	
+	-webkit-animation-timing-function: ease-in-out;		
+
+	visibility: visible !important;	
+}
+
+@keyframes slideLeft {
+	0% {
+		transform: translateX(150%);
+	}
+	50%{
+		transform: translateX(-8%);
+	}
+	65%{
+		transform: translateX(4%);
+	}
+	80%{
+		transform: translateX(-4%);
+	}
+	95%{
+		transform: translateX(2%);
+	}			
+	100% {
+		transform: translateX(0%);
+	}
+}
+
+@-webkit-keyframes slideLeft {
+	0% {
+		-webkit-transform: translateX(150%);
+	}
+	50%{
+		-webkit-transform: translateX(-8%);
+	}
+	65%{
+		-webkit-transform: translateX(4%);
+	}
+	80%{
+		-webkit-transform: translateX(-4%);
+	}
+	95%{
+		-webkit-transform: translateX(2%);
+	}			
+	100% {
+		-webkit-transform: translateX(0%);
+	}
+}
+
+    </style>
+    <script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+function MM_showHideLayers() { //v9.0
+  var i,p,v,obj,args=MM_showHideLayers.arguments;
+  for (i=0; i<(args.length-2); i+=3) 
+  with (document) if (getElementById && ((obj=getElementById(args[i]))!=null)) { v=args[i+2];
+    if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v; }
+    obj.visibility=v; }
+}
+    </script>
+</head>
+
+<body bgcolor="#FFF" onLoad="MM_preloadImages('images/e1.gif','images/e2.gif','images/e3.gif','images/e5.gif')">
+
+	<div id="apDiv1"><a href="javascript:;" onMouseOver="MM_showHideLayers('apDiv2','','show')" onMouseOut="MM_showHideLayers('apDiv2','','hide')"><img src="images/morning_special2.png" alt="蔓陀蘿" width="300" height="300" class="slideLeft" border="0"></a></div>
+    
+<div id="apDiv2" onMouseMove="MM_showHideLayers('apDiv2','','show')" onMouseOut="MM_showHideLayers('apDiv2','','hide')">
+    
+	<div id="apDiv3">
+    <p class="ma"><a href="About.html"><strong>Mandora蔓陀蘿:關於</strong></a></p>
+    <p class="ma"><a href="Raiders.html"><strong>Mandora蔓陀蘿:攻略</strong></a></p>
+    <p class="ma"><a href="Atlas.html"><strong>Mandora蔓陀蘿:圖鑑</strong></a></p>
+    <p class="ma"><a href="Video.html"><strong>Mandora蔓陀蘿:影音</strong></a></p>
+	<p class="ma"><a href="Related.html"><strong>Mandora蔓陀蘿:相關</strong></a></p></div>
+    </div>
+	
+	<div id="wrapper"> 
+	<div id="header">
+	<div id="apDiv6" onMouseMove="MM_showHideLayers('apDiv6','','show')" onMouseOut="MM_showHideLayers('apDiv6','','hide')">
+    <ul id="button">
+		<li><a href="About.html">關於</a></li>
+		<li><a href="Raiders.html">攻略</a></li>
+		<li><a href="Atlas.html">圖鑑</a></li>
+		<li><a href="Video.html">影音</a></li>
+		<li><a href="Related.html">相關</a></li>
+		</ul>
+    </div>
+    </div>
+	<div id="content" onMouseMove="MM_showHideLayers('apDiv6','','show')" onMouseOut="MM_showHideLayers('apDiv6','','hide')" bgcolor="#413116">
+    Mandora蔓陀蘿
+	</div>
+    <div id="footer">
+    <embed src="music/timer.mp3" loop="1" hidden=true >
+<embed src="music/result_bgm.mp3" loop="1" hidden=true >
+	</div>
+</div>
+ 
+</body>
+</html>
